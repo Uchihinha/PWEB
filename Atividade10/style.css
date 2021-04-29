@@ -1,0 +1,12 @@
+.imagem:hover {
+    background: url('imgs/janelaaberta.png') no-repeat;
+}
+.imagem:active {
+    background: url('imgs/quebrada.jpeg') no-repeat;
+}
+.imagem {
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background: url('imgs/janelafechada.png') no-repeat;
+}
