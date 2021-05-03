@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Contato</title>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/CSS" href="CSS/Style.css"> 
+    <script type="text/javascript" src="JS/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="Bootstrap/bootstrap-5.0.0-beta2-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="Bootstrap/bootstrap-5.0.0-beta2-dist/js/bootstrap.esm.min.js"></script>
+    <script type="text/javascript" src="Bootstrap/bootstrap-5.0.0-beta2-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/CSS" src="Bootstrap/bootstrap-5.0.0-beta2-dist/css/bootstrap-grid.min.css"></script>
+    <script type="text/CSS" src="Bootstrap/bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css"></script>
+    <script type="text/CSS" src="Bootstrap/bootstrap-5.0.0-beta2-dist/css/bootstrap-reboot.min.css"></script>
+    <meta name="description" content="Formas em que se pode entrar em contato comigo!" />
+    <meta name="author" content="Gabriel Jorge Pereira" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img class="img-navbar" src="IMG/Icone.jpg"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="SobreMim.html">Sobre Mim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Formação.html">Formação</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Trabalhos.html">Trabalhos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Experiencia.html">Experiências</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Habilidades.html">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contato.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="div-h1">
+        <center><h1 class="main-h1">Contato</h1></center>    
+    </div>
+    </br>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="emailID" placeholder="name@example.com" style="width: 500px;">
+      </br>
+      <label for="fullName" class="form-label">Nome completo</label>
+      <input type="text" class="form-control" id="fullNameID" placeholder="Fulano da Silva Pereira" style="width: 700px;">
+    </div>
+    <div class="mb-3">
+      <label for="telefone" class="form-label">Telefone</label>
+      <input type="tel" class="form-control" id="telefoneID" placeholder="(XX)XXXXXXXXX" style="width: 500px;">
+      </br>
+      <label for="msg" class="form-label">Mensagem</label>
+      <textarea class="form-control" id="msgID" rows="5"></textarea>
+      </br>
+      <button type="button" class="btn btn-primary">Enviar</button>
+    </div>
+    <div class="social-media">
+        <img class="facebook" src="IMG/Icon_fb.png" alt="Facebook" onclick="redirecionarFb()">
+        <img class="insta" src="IMG/Icon_insta.png" alt="Instagram" onclick="redirecionarIg()">
+        <img class="twitter" src="IMG/icon_tt.png"  alt="Twitter" onclick="redirecionarTt()">
+        <img class="linkedin" src="IMG/Icon_in.png"  alt="Linkedin" onclick="redirecionarIn()">
+      </div>
+  </body>
+</html>
